@@ -1,0 +1,147 @@
+name: booking_system_flutter
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 10.5.1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # COMMON
+  nb_utils: ^6.0.6
+  google_fonts: ^6.1.0
+  html: ^0.15.4
+  http: ^1.1.0
+  intl: ^0.18.1
+  cached_network_image: ^3.3.0
+  url_launcher: ^6.1.14
+
+  # FIREBASE
+  firebase_core: ^2.17.0
+  firebase_crashlytics: ^3.3.7
+  firebase_auth: ^4.10.1
+  firebase_storage: ^11.2.8
+  firebase_remote_config: ^4.2.7
+  cloud_firestore: ^4.9.3
+
+  # PUSH NOTIFICATION
+  onesignal_flutter: ^3.5.1
+
+  # STATE MANAGEMENT
+  mobx: ^2.2.0
+  flutter_mobx: ^2.1.0
+
+  # ICON
+  flutter_vector_icons: ^2.0.0
+  flutter_svg: ^2.0.7
+
+  # IMAGE
+  image_picker: ^1.0.4
+  photo_view: ^0.14.0
+  lottie: ^2.6.0
+
+  # OTHER
+  country_picker: ^2.0.21
+  flutter_custom_tabs: ^1.2.1
+  permission_handler: ^11.0.1
+  flutter_html: ^3.0.0-alpha.5
+  firebase_pagination: ^3.0.0
+  webview_flutter: ^4.4.1
+
+  # SOCIAL LOGIN
+  google_sign_in: ^6.1.5
+  the_apple_sign_in: ^1.1.1
+
+  # PAYMENT GATEWAYS
+  razorpay_flutter: ^1.3.5
+  flutterwave_standard: ^1.0.8
+  flutter_stripe: ^9.4.0
+  cinetpay: ^1.0.7
+  flutter_paypal_checkout:
+    git:
+      url: https://github.com/Raj-GMITS/flutter_paypal_checkout.git
+      ref: main
+
+  #  flutter_braintree: ^3.0.0 Remove due to play store does not approving the app
+
+  # MAP
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  mobx_codegen: ^2.4.0
+  #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/
+    - assets/flag/
+    - assets/images/
+    - assets/icons/
+    - assets/lottie/
+    - lib/
+    - lib/model/
+    - lib/store/
+    - lib/utils/
+    - lib/utils/shimmer/
+    - lib/utils/widgets/
+    - lib/utils/widgets/horizontal_calender/
+    - lib/utils/extensions/
+    - lib/locale/
+    - lib/network/
+    - lib/screens/
+    - lib/screens/map/
+    - lib/screens/auth/
+    - lib/screens/blog/
+    - lib/screens/blog/view/
+    - lib/screens/blog/model/
+    - lib/screens/blog/shimmer/
+    - lib/screens/blog/component/
+    - lib/screens/chat/
+    - lib/screens/chat/widget/
+    - lib/screens/filter/
+    - lib/screens/filter/component/
+    - lib/screens/review/
+    - lib/screens/review/shimmer/
+    - lib/screens/review/components/
+    - lib/screens/wallet/
+    - lib/screens/booking/
+    - lib/screens/booking/shimmer/
+    - lib/screens/booking/component/
+    - lib/screens/gallery/
+    - lib/screens/payment/
+    - lib/screens/payment/component/
+    - lib/screens/service/
+    - lib/screens/service/package/
+    - lib/screens/service/shimmer/
+    - lib/screens/service/component/
+    - lib/screens/shimmer/
+    - lib/screens/category/
+    - lib/screens/category/shimmer/
+    - lib/screens/dashboard/
+    - lib/screens/dashboard/shimmer/
+    - lib/screens/dashboard/fragment/
+    - lib/screens/dashboard/component/
+    - lib/screens/jobRequest/
+    - lib/screens/jobRequest/shimmer/
+    - lib/screens/jobRequest/components/
+    - lib/screens/jobRequest/createService/
+    - lib/screens/notification/
+    - lib/screens/notification/components/
+    - lib/services/
+    - lib/component/
+    - lib/generated/
+
